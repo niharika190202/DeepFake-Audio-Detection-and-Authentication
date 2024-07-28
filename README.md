@@ -2,7 +2,7 @@
 ## Overview
 The Deepfake Hindi Audio Detection and Authentication project is a machine learning-based system designed to detect and authenticate deepfake audio clips in Hindi. The system utilizes advanced neural network architectures to analyze audio signals and identify manipulated content, helping to combat misinformation and protect audio integrity.
 
-##Features
+## Features
 - Preprocessing of audio files
 - Training and validation of deep learning models
 - Detection of deepfake audio clips

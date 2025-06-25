@@ -1,27 +1,36 @@
-# TrueSound - Deepfake Audio Detection and Authentication
+# TrueSound - Hindi Audio Deepfake Detection
+
 ## Overview
-The Deepfake Audio Detection and Authentication project is a machine learning-based system designed to detect and authenticate deepfake audio clips in Hindi. The system utilizes advanced neural network architectures to analyze audio signals and identify manipulated content, helping to combat misinformation and protect audio integrity.
+**TrueSound** is a machine learning-based system that detects and classifies deepfake audio clips in the Hindi language. It helps distinguish between real and synthetically manipulated audio to promote content authenticity and combat misinformation.
+
+---
 
 ## Features
-- Preprocessing of audio files
-- Training and validation of deep learning models
-- Detection of deepfake audio clips
-- Authentication of genuine audio clips
-- Visualization of detection results
+- Extraction of audio features (MFCCs) using Librosa
+- Synthetic fake audio generation (pitch shift, speed change, noise)
+- Binary classification using Logistic Regression
+- Visualization using confusion matrix
+- Accurate detection of real vs. fake Hindi speech clips
+
+---
+
 ## Technologies Used
 - Python
-- TensorFlow / Keras
+- Scikit-learn
 - Librosa
-- NumPy
-- Matplotlib
+- NumPy / Pandas
+- Matplotlib / Seaborn
+
+---
+
 ## Dataset
-The dataset for this project includes real and deepfake Hindi audio clips. The dataset can be obtained from Deepfake Audio Dataset or any other relevant source.
-## Contributing
-Contributions are welcome! Please fork the repository and submit a pull request for any enhancements or bug fixes.
+The dataset includes Hindi language audio clips obtained from the [Indian Languages Audio Dataset](https://www.kaggle.com/datasets/hmsolanki/indian-languages-audio-dataset).  
+Fake audio clips are synthetically generated using pitch shifting, time stretching, and noise addition techniques.
 
-## License
-This project is licensed under the MIT License. See the LICENSE file for more details.
+---
 
-## Acknowledgements
-- Deepfake Audio Dataset
-- Open-source libraries and frameworks used in this project
+## How to Use
+1. Clone the repository
+2. Install dependencies:
+   ```bash
+   pip install librosa scikit-learn matplotlib seaborn

@@ -34,3 +34,21 @@ Fake audio clips are synthetically generated using pitch shifting, time stretchi
 2. Install dependencies:
    ```bash
    pip install librosa scikit-learn matplotlib seaborn
+3. Run the TrueSound.ipynb notebook step-by-step
+4. Evaluate results and model performance
+
+---
+
+## Contributions
+Contributions are welcome! Fork the repository and open a pull request with improvements or new features.
+
+---
+
+## License
+This project is licensed under the MIT License.
+
+---
+
+## Acknowledgements
+- Kaggle - Indian Languages Audio Dataset
+- The open-source Python ML and audio processing community
